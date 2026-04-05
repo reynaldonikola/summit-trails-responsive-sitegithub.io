@@ -1,0 +1,8 @@
+/* Theme CSS - dark mode override */
+body {
+  background: #111;
+  color: #fff;
+}
+header {
+  background: #222;
+}
