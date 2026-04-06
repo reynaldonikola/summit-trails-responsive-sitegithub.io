@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
-  <rect width="800" height="500" fill="#dcfce7"/>
-  <rect x="0" y="0" width="150" height="500" fill="#166534"/>
-  <rect x="650" y="0" width="150" height="500" fill="#14532d"/>
-  <path d="M150 260 Q400 160 650 260 L650 500 L150 500 Z" fill="#15803d"/>
-  <path d="M375 80 Q450 130 430 220 Q410 300 460 360 Q350 360 330 260 Q315 170 375 80 Z" fill="#e0f2fe"/>
-  <path d="M360 360 Q410 330 460 360 Q430 410 400 500 Q380 430 360 360 Z" fill="#f8fafc"/>
-</svg>
