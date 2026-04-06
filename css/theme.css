@@ -1,14 +1,13 @@
 /*
-  Theme changes:
-  - Added a dramatic dark/copper alternate theme
-  - Recolored surfaces, buttons, cards, and page background
-  - Kept this file focused on overrides only
+Theme changes made:
+- Added a dark alternate theme
+- Changed colors, surfaces, borders, and buttons
+- Modified backgrounds and card appearance
+- Kept this file focused on overrides only
 */
 
 :root {
-  --bg: #07101c;
   --surface: #0f1a2b;
-  --surface-2: #122238;
   --text: #edf2f8;
   --muted: #b1bfd2;
   --accent: #f59e0b;
