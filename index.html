@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Summit Trails is a responsive hiking and travel inspiration website with theme toggle support.">
+  <title>Summit Trails | Responsive Web Experience</title>
+  <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand-block">
+      <p class="eyebrow">Explore Utah</p>
+      <h1>Summit Trails</h1>
+      <p class="tagline">A polished hiking guide with responsive design, strong visual hierarchy, and a dramatic alternate theme.</p>
+    </div>
+
+    <nav class="main-nav" aria-label="Primary navigation">
+      <a href="#about">About</a>
+      <a href="#featured">Featured</a>
+      <a href="#tips">Tips</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <button id="themeToggle" class="theme-toggle" type="button" aria-pressed="false">
+      Switch Theme
+    </button>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="section-label">Weekend escape</p>
+        <h2>Responsive hiking guide for mountain lovers</h2>
+        <p>
+          Discover scenic trails, practical hiking advice, and beautiful local inspiration in a modern,
+          mobile-friendly layout built with Flexbox, Grid, and theme overrides.
+        </p>
+        <div class="hero-actions">
+          <a class="primary-button" href="#featured">View Featured Trails</a>
+          <a class="secondary-button" href="#gallery">See Gallery</a>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <img src="./images/hero-mountain.svg" alt="Stylized mountain landscape with a trail and sunrise">
+      </div>
+    </section>
+
+    <section id="about" class="intro-grid">
+      <article class="intro-card">
+        <h3>Why this site?</h3>
+        <p>
+          This project demonstrates cleaner structure, improved spacing, better alignment, and a more cohesive
+          visual system than a basic starter page.
+        </p>
+      </article>
+
+      <article class="intro-card">
+        <h3>What changed?</h3>
+        <p>
+          The page uses organized CSS, responsive layout patterns, reusable card styling, and a full alternate
+          theme loaded with JavaScript.
+        </p>
+      </article>
+
+      <article class="intro-card">
+        <h3>Theme toggle</h3>
+        <p>
+          The button in the header appends a separate stylesheet to the bottom of the head tag and toggles
+          between the original and alternate theme.
+        </p>
+      </article>
+    </section>
+
+    <section id="featured" class="featured-section">
+      <div class="section-heading">
+        <p class="section-label">Top picks</p>
+        <h2>Featured trails</h2>
+        <p>Three memorable routes with different vibes, all presented in a responsive card layout.</p>
+      </div>
+
+      <div class="trail-grid">
+        <article class="trail-card">
+          <img src="./images/bell-canyon.svg" alt="Illustration of Bell Canyon trail landscape">
+          <div class="trail-content">
+            <h3>Bell Canyon</h3>
+            <p>Great views, fresh air, and a rewarding route for hikers looking for a scenic climb.</p>
+            <ul class="trail-meta">
+              <li>Difficulty: Moderate</li>
+              <li>Best for: Views</li>
+              <li>Time: 2 to 3 hours</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="trail-card">
+          <img src="./images/cecret-lake.svg" alt="Illustration of an alpine lake with wildflowers">
+          <div class="trail-content">
+            <h3>Cecret Lake</h3>
+            <p>A family-friendly trail with alpine scenery, colorful flowers, and easy photo stops.</p>
+            <ul class="trail-meta">
+              <li>Difficulty: Easy</li>
+              <li>Best for: Families</li>
+              <li>Time: 1 to 2 hours</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="trail-card">
+          <img src="./images/donut-falls.svg" alt="Illustration of a waterfall trail through the forest">
+          <div class="trail-content">
+            <h3>Donut Falls</h3>
+            <p>A short adventure that works well for beginners who want a fun and accessible destination.</p>
+            <ul class="trail-meta">
+              <li>Difficulty: Easy</li>
+              <li>Best for: Quick trips</li>
+              <li>Time: 1 hour</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="tips" class="tips-panel">
+      <div>
+        <p class="section-label">Trail advice</p>
+        <h2>Quick hiking tips</h2>
+        <p>Start early, wear the right shoes, check conditions, and always pack more water than you think you need.</p>
+      </div>
+      <div class="tips-list">
+        <div class="tip-box">
+          <h3>Check weather</h3>
+          <p>Mountain weather changes quickly, so layer up and plan ahead.</p>
+        </div>
+        <div class="tip-box">
+          <h3>Bring essentials</h3>
+          <p>Water, snacks, and a charged phone should always be in your pack.</p>
+        </div>
+        <div class="tip-box">
+          <h3>Know your route</h3>
+          <p>Review distance, elevation, and trail conditions before you leave.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery" class="gallery-section">
+      <div class="section-heading">
+        <p class="section-label">Visual mood</p>
+        <h2>Mountain gallery</h2>
+      </div>
+      <div class="gallery-grid">
+        <img src="./images/gallery-1.svg" alt="Stylized mountain sunset illustration">
+        <img src="./images/gallery-2.svg" alt="Stylized alpine lake illustration">
+        <img src="./images/gallery-3.svg" alt="Stylized pine forest and trail illustration">
+      </div>
+    </section>
+  </main>
+
+  <footer id="contact" class="site-footer">
+    <div>
+      <h2>Summit Trails</h2>
+      <p>Designed as a responsive project page with a professional presentation and theme toggle.</p>
+    </div>
+    <div class="footer-links">
+      <p>Email: hello@summittrails.com</p>
+      <p>Location: Utah Inspiration</p>
+    </div>
+  </footer>
+
+  <script src="./js/script.js"></script>
+</body>
+</html>
