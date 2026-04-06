@@ -199,10 +199,6 @@ main {
   color: var(--text);
 }
 
-.secondary-button:hover {
-  transform: translateY(-1px);
-}
-
 .hero-visual {
   overflow: hidden;
   min-height: 340px;
